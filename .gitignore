@@ -1,0 +1,8 @@
+# cache
+*cache*
+.idea
+.vscode
+__pycache__
+tmp
+
+# other
