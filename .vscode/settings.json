@@ -1,0 +1,8 @@
+{
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "python.linting.enabled": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120"
+    ]
+}
