@@ -489,7 +489,9 @@ img::-moz-selection {
     margin: 0 auto;
     border-radius: 3px;
     text-align: center;
-    display: block; }
+    /* display: block; */
+    /* 注释掉display: block，可使适当大小的图像拼排显示。 */
+  }
   .post pre {
     width: 95%;
     overflow: auto; }
