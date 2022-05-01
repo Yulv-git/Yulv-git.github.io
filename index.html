@@ -1,102 +1,35 @@
-<!--
- * @Author: Shuangchi He / Yulv
- * @Email: yulvchi@qq.com
- * @Date: 2022-04-25 20:41:05
- * @Motto: Entities should not be multiplied unnecessarily.
- * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-04-27 18:43:31
- * @FilePath: /Yulv-git.github.io/index.html
- * @Description: Init from https://github.com/getgridea/gridea
--->
+---
+layout: default
+---
 
-<html>
+<div class="main-post-list hidden">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Yulv | Homepage</title>
-  <link rel="shortcut icon" href="https://yulv-git.github.io/favicon.ico?v=1650889310864">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://yulv-git.github.io/styles/main.css">
-  <link rel="alternate" type="application/atom+xml" title="Yulv | Homepage - Atom Feed"
-    href="https://yulv-git.github.io/atom.xml">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-  <meta name="description" content="Yulv's Homepage" />
-</head>
-
-<body>
-  <div class="main">
-    <div class="main-content">
-      <div class="site-header">
-        <a href="https://yulv-git.github.io">
-          <img class="avatar" src="https://yulv-git.github.io/images/avatar.png?v=1650889310864" alt="">
-        </a>
-
-        <h1 class="site-title">
-          Yulv
-        </h1>
-
-        <p class="site-description">
-          👏 Welcome to my website!<br>
-          ✍️ Record life, mood, knowledge, notes, creativity...
-        </p>
-
-        <div class="menu-container">
-          <a href="/" class="menu">
-            Homepage
-          </a>
-          <a href="/archives" class="menu">
-            Archives
-          </a>
-          <a href="/tags" class="menu">
-            Tags
-          </a>
-          <a href="/post/about" class="menu">
-            About
-          </a>
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title
+          }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta">
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" />
+          {{ post.date | date: "%F"}}</time>
+        <div class="tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" />
         </div>
-
-      </div>
-
-      <div class="post-detail">
-        <article class="post">
-          <div class="post-content-wrapper">
-            <div class="post-content">
-
-              <h2 id="GitHub">GitHub ⚡</h2>
-              <div class="time">2022-04-25</div>
-
-              <a href="https://github.com/Yulv-git"><img
-                  src="https://github-readme-stats.vercel.app/api?username=Yulv-git&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" /></a>
-
-              <a href="https://github.com/Yulv-git"><img
-                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yulv-git&show_icons=true&hide_border=true&layout=compact&langs_count=12" /></a>
-
-            </div>
-
-            <div class="toc-container">
-              <ul class="markdownIt-TOC">
-                <li>
-                  <ul>
-                    <li><a href="#GitHub">GitHub ⚡</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-
+        <a href="/tags">
+          <div class="post-list-icon-mate">
+            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
           </div>
-        </article>
+          <div class="post-list-small-mate">
+            <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
+          </div>
       </div>
+      <hr class="post-list__divider" />
+    </li>
+    {% endfor %}
+  </ol>
 
-      <div class="site-footer">
-        Powered by &nbsp <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-        <a class="rss" href="https://yulv-git.github.io/atom.xml" target="_blank">
-          <i class="ri-rss-line"></i> &nbsp RSS
-        </a>
-      </div>
+  {% include pagination.html %}
 
-    </div>
-  </div>
-</body>
-
-</html>
+</div>
