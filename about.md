@@ -3,10 +3,14 @@ layout: page
 title: 关于我 
 ---
 
-I am Yulv.
+## Who is the Blogger
 
-<!-- <h2> PASS </h2>
+I'm Yulv / Shuangchi He.
+🌱 I'm currently learning AI research algorithms - computer vision.
+😄 I'm interested in machine learning, deep learning, computer vision and medical image computing.
 
-paa -->
+## ⛹ Hobby
+
+My hobbies are running, playing badminton, playing table tennis and so on.
 
 {% include comments.html %}
