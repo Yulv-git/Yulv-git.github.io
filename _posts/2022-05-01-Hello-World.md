@@ -23,16 +23,16 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yulv-git&sho
 
 <details open>
     <summary><b>🔭 GitHub Pinned</b></summary>
-        <a href="https://github.com/Yulv-git/Awesome-Ultrasound-Standard-Plane-Detection"><img width="370em"
+        <a href="https://github.com/Yulv-git/Awesome-Ultrasound-Standard-Plane-Detection"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Awesome-Ultrasound-Standard-Plane-Detection" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Model_Inference_Deployment"><img width="370em"
+        <a href="https://github.com/Yulv-git/Model_Inference_Deployment"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Model_Inference_Deployment" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Campus_network_OM_WAL"><img width="370em"
+        <a href="https://github.com/Yulv-git/Campus_network_OM_WAL"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Campus_network_OM_WAL" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Correlation_and_Agreement_Analysis"><img width="370em"
+        <a href="https://github.com/Yulv-git/Correlation_and_Agreement_Analysis"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Correlation_and_Agreement_Analysis" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Search-for-Typos"><img width="370em"
+        <a href="https://github.com/Yulv-git/Search-for-Typos"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Search-for-Typos" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZUs"><img width="370em"
+        <a href="https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZUs"><img width="370em" height="140em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Master-Thesis-LaTeX-Template-of-SZU" alt="" /></a>
 </details>
