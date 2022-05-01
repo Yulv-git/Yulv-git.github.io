@@ -9,7 +9,7 @@ tags: Blog
 
 - 🌱 I'm currently learning AI research algorithms - computer vision.
 - 😄 I'm interested in machine learning, deep learning, computer vision and medical image computing.
-- 📫 yulvchi@qq.com
+- 📫 <a href="mailto:yulvchi@qq.com" target="_blank">yulvchi@qq.com</a>
 
 ## Hobby ⛹
 
@@ -36,6 +36,4 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yulv-git&sho
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Search-for-Typos" /></a>
         <a href="https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZUs"><img align="center"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Master-Thesis-LaTeX-Template-of-SZU" /></a>
-        <a href="https://github.com/Yulv-git/Jekyll-Pages"><img align="center"
-        src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Jekyll-Pages" /></a>
 </details>

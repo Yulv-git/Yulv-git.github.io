@@ -4,7 +4,7 @@
  * @Date: 2022-05-01 00:38:38
  * @Motto: Entities should not be multiplied unnecessarily.
  * @LastEditors: Shuangchi He
- * @LastEditTime: 2022-05-01 14:59:59
+ * @LastEditTime: 2022-05-01 15:33:06
  * @FilePath: /Yulv-git.github.io/Readme.md
  * @Description: Yulv's GitHub Pages
  * Repository: https://github.com/Yulv-git/Yulv-git.github.io
@@ -16,7 +16,7 @@
 
 - 🌱 I'm currently learning AI research algorithms - computer vision.
 - 😄 I'm interested in machine learning, deep learning, computer vision and medical image computing.
-- 📫 yulvchi@qq.com
+- 📫 <a href="mailto:yulvchi@qq.com" target="_blank">yulvchi@qq.com</a>
 
 <details open>
     <summary><b>⚡ Github Stats </b></summary>
