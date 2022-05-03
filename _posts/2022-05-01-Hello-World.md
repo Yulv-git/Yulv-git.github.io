@@ -33,6 +33,6 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yulv-git&sho
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Correlation_and_Agreement_Analysis" alt="" /></a>
         <a href="https://github.com/Yulv-git/Search-for-Typos"><img width="370em" height="150em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Search-for-Typos" alt="" /></a>
-        <a href="https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZUs"><img width="370em" height="150em"
+        <a href="https://github.com/Yulv-git/Master-Thesis-LaTeX-Template-of-SZU"><img width="370em" height="150em"
         src="https://github-readme-stats.vercel.app/api/pin/?username=Yulv-git&repo=Master-Thesis-LaTeX-Template-of-SZU" alt="" /></a>
 </details>
