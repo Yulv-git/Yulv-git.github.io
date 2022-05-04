@@ -18,7 +18,7 @@ PS：若服务器被黑客攻破了，服务器中的root用户和其他所有�
 
 - 显卡被某用户的不明进程占用，且利用率很高甚至为100%。
 
-### 1.2. 查看进程信息异常
+### 1.2. 查看进程信息是否异常
 
 使用`top`或其他命令发现进程出现异常，如：
 
@@ -39,8 +39,7 @@ PS：一般不要随便查看别人的用户目录，毕竟各用户可能有属
 
 若发现某用户的文件中存在一些挖矿相关配置的文件或者程序，则该用户很可能被用来进行过挖矿等异常操作。和该用户沟通确认后，对挖矿或其他异常操作的文件或程序进行删除。挖矿相关配置文件示例（黑客在root用户目录的./.cache/.x/目录的config.ini的挖矿配置信息）：
 
-<!-- ![ETH_show](../images/blog/ETH_show.png) -->
-![ETH_show](https://github.com/Yulv-git/Yulv-git.github.io/blob/master/images/blog/ETH_show.png)
+![ETH_show](/images/blog/ETH_show.png)
 
 ## 2. 设置SSH安全防御
 
@@ -81,8 +80,7 @@ sudo service sshd  restart
 sudo cat /var/log/auth.log | grep refused
 ```
 
-<!-- ![SSH_refused_show](../images/blog/SSH_refused_show.png) -->
-![SSH_refused_show](https://github.com/Yulv-git/Yulv-git.github.io/blob/master/images/blog/SSH_refused_show.png)
+![SSH_refused_show](/images/blog/SSH_refused_show.png)
 
 此处，公示下某个一直尝试爆破我所用服务器的校园内的ip（至今被探查到连接失败就有54555次）:
 
@@ -90,4 +88,4 @@ sudo cat /var/log/auth.log | grep refused
 54555  Apr 28 08:07:17 amax sshd[852562]: refused connect from 172.31.111.189 (172.31.111.189)
 ```
 
-PS：若您在设置SSH安全防御之后，黑客没有再通过攻击您的服务器，那可能没有被禁止访问的ip记录。此时，您可将您现有的其中一个ip不放到`/etc/hosts.allow`中，并拿其来连接您的服务器就会有其访问记录了。
+PS：若您在设置SSH安全防御之后，黑客没有再通过SSH攻击您的服务器，那可能没有被禁止访问的ip记录。此时，您可将您现有的其中一个ip不放到`/etc/hosts.allow`中，并拿其来连接您的服务器就会有其访问记录了。
