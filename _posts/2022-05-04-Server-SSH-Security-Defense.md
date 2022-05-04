@@ -4,6 +4,8 @@ title: SSH security defense after server is hacked and mined | 服务器被黑�
 tags: Server
 ---
 
+PS：本人非专业网络安全攻防人员，仅为个人实践经验。本文可能难免有不当之处，欢迎您的讨论和指导。
+
 ## 1. 确定服务器是否被黑客攻击和被挖矿
 
 PS：若服务器被黑客攻破了，服务器中的root用户和其他所有用户，都有可能被用来挖矿或进行其他异常操作（黑客也可能新建用户来进行异常操作）。故，发现某用户可能有异常操作时，先和该用户使用者沟通确认是否异常。即，不要随便怀疑内部人员，也不要随便kill掉其运行中的程序，最后先确认后再进行相关操作。
@@ -37,7 +39,8 @@ PS：一般不要随便查看别人的用户目录，毕竟各用户可能有属
 
 若发现某用户的文件中存在一些挖矿相关配置的文件或者程序，则该用户很可能被用来进行过挖矿等异常操作。和该用户沟通确认后，对挖矿或其他异常操作的文件或程序进行删除。挖矿相关配置文件示例（黑客在root用户目录的./.cache/.x/目录的config.ini的挖矿配置信息）：
 
-![ETH_show](../images/blog/ETH_show.png)
+<!-- ![ETH_show](../images/blog/ETH_show.png) -->
+![ETH_show](https://github.com/Yulv-git/Yulv-git.github.io/blob/master/images/blog/ETH_show.png)
 
 ## 2. 设置SSH安全防御
 
@@ -78,7 +81,8 @@ sudo service sshd  restart
 sudo cat /var/log/auth.log | grep refused
 ```
 
-![SSH_refused_show](../images/blog/SSH_refused_show.png)
+<!-- ![SSH_refused_show](../images/blog/SSH_refused_show.png) -->
+![SSH_refused_show](https://github.com/Yulv-git/Yulv-git.github.io/blob/master/images/blog/SSH_refused_show.png)
 
 此处，公示下某个一直尝试爆破我所用服务器的校园内的ip（至今被探查到连接失败就有54555次）:
 
