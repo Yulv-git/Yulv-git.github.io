@@ -8,7 +8,7 @@ tags: Yulv
 ## Hello! I'm Yulv 👋
 
 - 🌱 I'm currently learning AI research algorithms - computer vision.
-- 😄 I'm interested in ML/DL, computer vision, medical image computing and autonomous driving.
+- 😄 I'm interested in ML/DL, computer vision, medical image computing, etc.
 - 📫 <a href="mailto:yulvchi@qq.com" target="_blank">yulvchi@qq.com</a>
 
 ## Hobby ⛹
