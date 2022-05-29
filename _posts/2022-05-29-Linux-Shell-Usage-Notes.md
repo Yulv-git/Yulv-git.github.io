@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Shell Usage Notes | Linux Shell 命令使用笔记
-tags: Linux, Shell
+tags: Linux Shell
 ---
 
 PS：本人记录的一些 Linux Shell 命令使用笔记
@@ -100,16 +100,16 @@ trusted-host = https://pypi.douban.com
 ``` bash
 # 安装库时，指定镜像源
 pip install -i  https://mirrors.aliyun.com/pypi/simple/ numpy
+
+# 清华：https://pypi.tuna.tsinghua.edu.cn/simple
+# 阿里云：http://mirrors.aliyun.com/pypi/simple/
+# 中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+# 华中理工大学：http://pypi.hustunique.com/
+# 山东理工大学：http://pypi.sdutlinux.org/
+# 豆瓣：http://pypi.douban.com/simple/
+
+# note：新版ubuntu要求使用https源
 ```
-
-清华：https://pypi.tuna.tsinghua.edu.cn/simple
-阿里云：http://mirrors.aliyun.com/pypi/simple/
-中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
-华中理工大学：http://pypi.hustunique.com/
-山东理工大学：http://pypi.sdutlinux.org/
-豆瓣：http://pypi.douban.com/simple/
-
-note：新版ubuntu要求使用https源
 
 ### 2.4. 修改cuda版本
 
@@ -419,8 +419,6 @@ find 命令功能非常强大，通常用来在特定的目录下搜索符合条
 |      find ./ -size +4k -size -5M       |   查找当前目录下大于4k，小于5M的文件   |
 |           find ./ -perm 0777           | 查找当前目录下权限为 777 的文件或目录  |
 | find / -name "hadooop*" -exec rm {} \; |               查找并删除               |
-
-[更多find用法和示例](./file/find_glob.md)
 
 ### 5.5. 创建文件
 
