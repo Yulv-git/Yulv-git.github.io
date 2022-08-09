@@ -71,7 +71,7 @@ conda create -n 环境名 numpy matplotlib python=X.X
 conda activate 环境名
 
 # 查看已存在的虚拟环境
-conda info -e  # 或 conda env lis
+conda info -e  # 或 conda env list
 ```
 
 ### 2.2. conda 镜像源
