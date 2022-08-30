@@ -20,6 +20,8 @@ My hobbies are running, playing badminton, playing table tennis and so on.
 <a href="https://github.com/Yulv-git"><img height="180em"
 src="https://github-readme-stats.vercel.app/api?username=Yulv-git&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="" /></a><a href="https://github.com/Yulv-git"><img height="180em"
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yulv-git&show_icons=true&hide_border=true&layout=compact&langs_count=12" alt="" /></a>
+<a href="https://github.com/Yulv-git"><img height="264em"
+src="https://activity-graph.herokuapp.com/graph?username=Yulv-git&theme=minimal&hide_border=true"/></a>
 
 <details open>
     <summary><b>🔭 GitHub Pinned</b></summary>
