@@ -39,9 +39,12 @@ chmod 700 /用户主目录/.ssh/
 ### 1.3. 权限管理
 
 ``` bash
-# 把某个文件夹及其内容的权限授权给用户
+# 把某个文件夹及其内容的权限授权（包括所属权限）给指定用户
 sudo chown -R 用户名 文件夹
-sudo chown -R 用户:组 文件夹  # 同时指定用户组
+sudo chown -R 用户名:组 文件夹  # 同时指定用户组
+
+# 给指定用户开通某个文件夹的权限，不包括所属权限
+setfacl -R -m u:用户名:rwx 文件夹
 
 # 给用户主目录设置权限，使得只有该用户才能访问
 sudo chmod -R 700 用户主目录
@@ -71,7 +74,10 @@ conda create -n 环境名 numpy matplotlib python=X.X
 conda activate 环境名
 
 # 查看已存在的虚拟环境
-conda info -e  # 或 conda env list
+conda info -e  # 或 conda env list  # conda info --envs
+
+# 删除
+conda remove -n 环境名 --all
 ```
 
 ### 2.2. conda 镜像源
